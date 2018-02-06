@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.2.0",
+	"FriendlyName": "TextureMerge",
+	"Description": "TextureMerge Plugin.",
+	"Category": "Other",
+	"CreatedBy": "Heiko Fink aka Cyx",
+	"CreatedByURL": "https://github.com/Cyx69/TextureMergePlugin",
+	"DocsURL": "https://wiki.unrealengine.com/Texture_Merging_With_UCanvasRenderTarget2D",
+	"MarketplaceURL": "",
+	"SupportURL": "https://forums.unrealengine.com/showthread.php?78902-Wiki-Texture-merging-with-UCanvasRenderTarget2D",
+	"Modules": [
+		{
+			"Name": "TextureMerge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false
+}

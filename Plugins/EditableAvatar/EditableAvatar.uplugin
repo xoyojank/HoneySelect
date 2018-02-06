@@ -1,0 +1,27 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "EditableAvatar",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "",
+	"CreatedByURL" : "",
+	"EngineVersion" : "4.15.2",
+	"Description" : "",
+	"Category" : "",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "EditableAvatar",
+			"Type" : "Runtime",
+		    "LoadingPhase": "Default"
+		},
+		{
+			"Name" : "EditableAvatarEditor",
+			"Type" : "Developer",
+			"LoadingPhase" : "PreDefault"
+		},
+	]
+}
