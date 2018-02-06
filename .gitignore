@@ -1,7 +1,14 @@
 /Binaries
 /Build
 /DerivedDataCache
-/Intermediate
+Intermediate
 /Saved
 /WindowsNoEditor
 /.vs/HoneySelect/v14/*.suo
+*.dll
+*.response
+*.obj
+*.exp
+*.pdb
+*.modules
+*.sln
