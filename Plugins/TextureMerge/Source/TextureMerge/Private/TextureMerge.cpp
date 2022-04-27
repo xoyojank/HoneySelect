@@ -9,6 +9,7 @@
 // This code implements the TextureMerge module startup and shutdown functions.
 // 
 
+#include "TextureMerge.h"
 #include "TextureMergePrivatePCH.h"
 
 #define LOCTEXT_NAMESPACE "FTextureMergeModule"

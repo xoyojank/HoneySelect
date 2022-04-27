@@ -10,10 +10,11 @@
 // See also:
 // https://wiki.unrealengine.com/Texture_Merging_With_UCanvasRenderTarget2D
 //
+#include "CompositeTexture.h"
 #include "TextureMergePrivatePCH.h"
 #include "Engine.h"
 #include "Runtime/Engine/Classes/Engine/Canvas.h"
-#include "CompositeTexture.h"
+
 
 UCompositeTexture::UCompositeTexture()
 {
