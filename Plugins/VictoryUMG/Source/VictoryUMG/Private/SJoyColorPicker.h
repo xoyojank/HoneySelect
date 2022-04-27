@@ -11,7 +11,7 @@
 //UE4 Color Picker
 //		Requires public module in build.cs
 //			APPFRAMEWORK 
-#include "SColorPicker.h"
+#include "Widgets/Colors/SColorPicker.h"
   
 class SJoyColorPicker
 	: public SColorPicker

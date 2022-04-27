@@ -1,7 +1,6 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
-
-#include "EditableAvatarEditorPrivatePCH.h"
 #include "AnimGraphNode_ModifyBones.h"
+#include "EditableAvatarEditorPrivatePCH.h"
 #include "UnrealWidget.h"
 #include "AnimNodeEditModes.h"
 #include "Kismet2/CompilerResultsLog.h"

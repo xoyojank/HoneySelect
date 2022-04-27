@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class HoneySelectTarget : TargetRules
 {
-	public HoneySelectTarget(TargetInfo Target)
+	public HoneySelectTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-	}
-
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-	    TargetInfo Target,
-	    ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-	    ref List<string> OutExtraModuleNames
-	)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "HoneySelect" } );
+		DefaultBuildSettings = BuildSettingsVersion.V2;
+		ExtraModuleNames.Add("HoneySelect");
 	}
 }

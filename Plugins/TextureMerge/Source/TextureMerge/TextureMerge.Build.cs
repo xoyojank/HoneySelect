@@ -13,7 +13,7 @@ using UnrealBuildTool;
 
 public class TextureMerge : ModuleRules
 {
-	public TextureMerge(TargetInfo Target)
+	public TextureMerge(ReadOnlyTargetRules Target) : base(Target)
 	{
 		
 		PublicIncludePaths.AddRange(

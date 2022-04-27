@@ -1,5 +1,6 @@
-#include "EditableAvatarPrivatePCH.h"
 #include "AvatarBoneTransform.h"
+#include "EditableAvatarPrivatePCH.h"
+
 
 FAvatarBoneTransform::FAvatarBoneTransform()
 	: Location(FVector::ZeroVector)

@@ -8,8 +8,8 @@
 // Description:
 // This code implements the blueprint functions that are provided by the TextureMerge Blueprint Function Library.
 //
-#include "TextureMergePrivatePCH.h"
 #include "TextureMergeBPLibrary.h"
+#include "TextureMergePrivatePCH.h"
 #include "CompositeTexture.h"
 
 UTextureMergeBPLibrary::UTextureMergeBPLibrary(const FObjectInitializer& ObjectInitializer)

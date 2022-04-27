@@ -13,7 +13,7 @@ class USkeletalMeshComponent;
 /**
 *	Simple controller that replaces or adds to the translation/rotation of a single bone.
 */
-USTRUCT()
+USTRUCT(BlueprintType)
 struct EDITABLEAVATAR_API FAnimNode_ModifyBones : public FAnimNode_Base
 {
 	GENERATED_USTRUCT_BODY()

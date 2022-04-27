@@ -1,9 +1,9 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-#include "EditableAvatarPrivatePCH.h"
 #include "AnimNode_ModifyBones.h"
+#include "EditableAvatarPrivatePCH.h"
 #include "AnimationRuntime.h"
-#include "AnimInstanceProxy.h"
+#include "Animation/AnimInstanceProxy.h"
 #include "EditableAvatarComponent.h"
 /////////////////////////////////////////////////////
 // FAnimNode_ModifyBones
