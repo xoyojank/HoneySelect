@@ -1,2 +1,2 @@
-#include "EditableAvatarPrivatePCH.h"
 #include "EditableAvatarComponent.h"
+#include "EditableAvatarPrivatePCH.h"

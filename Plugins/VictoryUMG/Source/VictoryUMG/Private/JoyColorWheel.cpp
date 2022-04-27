@@ -5,8 +5,9 @@
 
 	copyright 2015
 */
-#include "VictoryUMGPrivatePCH.h"
 #include "JoyColorWheel.h"
+#include "VictoryUMGPrivatePCH.h"
+
 
 //LOCTEXT
 #define LOCTEXT_NAMESPACE "UMG"

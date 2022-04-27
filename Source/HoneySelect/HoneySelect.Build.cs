@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class HoneySelect : ModuleRules
 {
-	public HoneySelect(TargetInfo Target)
+	public HoneySelect(ReadOnlyTargetRules Target): base(Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 

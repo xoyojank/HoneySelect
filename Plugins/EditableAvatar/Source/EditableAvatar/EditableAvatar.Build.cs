@@ -4,7 +4,7 @@ namespace UnrealBuildTool.Rules
 {
 public class EditableAvatar : ModuleRules
 {
-	public EditableAvatar(TargetInfo Target)
+	public EditableAvatar(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicIncludePaths.AddRange(
 		    new string[]

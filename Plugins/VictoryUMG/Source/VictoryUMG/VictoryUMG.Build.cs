@@ -9,7 +9,7 @@ using UnrealBuildTool;
 
 public class VictoryUMG : ModuleRules
 {
-	public VictoryUMG(TargetInfo Target)
+	public VictoryUMG(ReadOnlyTargetRules Target) : base(Target)
 	{
         PublicDependencyModuleNames.AddRange(
 			new string[] { 
